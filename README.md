@@ -1,43 +1,57 @@
-# Astro Starter Kit: Minimal
+# Civic Signals
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Civic Signals is a small, community-maintained news feed for people working in and around digital government.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+It collects useful public updates from blogs, weeknotes, reports and other digital government sources into one simple feed.
 
-## 🚀 Project Structure
+The aim is not to build a portal or publishing platform. The first version is deliberately small: a static website, a list of sources, and an automated feed refresh.
 
-Inside of your Astro project, you'll see the following folders and files:
+## What this is for
+
+People working in digital government often rely on fragmented networks, newsletters, Slack groups, blog subscriptions and social media to keep up with what is happening.
+
+Civic Signals gives people one place to check for useful updates across the wider ecosystem.
+
+It is especially intended for people working across boundaries, including:
+
+- service designers
+- content designers
+- user researchers
+- delivery managers
+- policy professionals
+- developers and architects
+- people in local government, central government, arm’s-length bodies, consultancies and civic technology organisations
+
+
+## Tech stack
+
+- [Astro](https://astro.build/) for the static site
+- TypeScript for ingestion and validation
+- GOV.UK Frontend-inspired styling and patterns
+- YAML for source management
+- JSON for generated feed data
+- GitHub Actions for scheduled refresh and deployment
+- GitHub Pages for hosting
+
+## Project structure
 
 ```text
-/
-├── public/
+.
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── data/
+│   └── sources.yml
+├── scripts/
+│   └── ingest.ts
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+│   ├── data/
+│   │   ├── items.json
+│   │   └── status.json
+│   ├── pages/
+│   │   └── index.astro
+│   └── styles/
+│       └── global.css
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json

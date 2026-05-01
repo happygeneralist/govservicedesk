@@ -66,4 +66,7 @@
 
 ---
 
+https://medium.com/@transformgovtalks
+
+
 > **Note:** The "Slack Communities" section is currently reserved for future entries as you crowdsource more resources.
