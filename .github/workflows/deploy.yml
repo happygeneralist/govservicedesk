@@ -9,7 +9,7 @@ on:
     - cron: '17 * * * *'
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh-and-build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,13 +37,8 @@ jobs:
       - name: Ingest feeds
         run: npm run ingest
 
-      - name: Commit refreshed feed data
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add src/data/items.json src/data/status.json
-          git diff --cached --quiet || git commit -m "Refresh feed data"
-          git push
+      - name: Show generated status
+        run: cat src/data/status.json
 
       - name: Build site
         run: npm run build
@@ -54,7 +49,7 @@ jobs:
           path: dist
 
   deploy:
-    needs: refresh-and-build
+    needs: build
     runs-on: ubuntu-latest
 
     environment:
