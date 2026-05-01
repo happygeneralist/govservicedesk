@@ -1,6 +1,17 @@
 ---
 import '../styles/global.css'
 import items from '../data/items.json'
+import status from '../data/status.json'
+
+const refreshedAt = status.checkedAt
+  ? new Date(status.checkedAt).toLocaleString('en-GB', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    })
+  : null
 ---
 
 <html lang="en">
@@ -24,7 +35,15 @@ import items from '../data/items.json'
 
       <section aria-labelledby="latest-updates">
         <div class="section-header">
-          <h2 id="latest-updates">Latest updates</h2>
+          <div class="section-title">
+            <h2 id="latest-updates">Latest updates</h2>
+
+            {refreshedAt && (
+              <p class="refresh-time">
+                Refreshed {refreshedAt}
+              </p>
+            )}
+          </div>
 
           <p class="feed-count">
             {items.length} items
