@@ -351,57 +351,63 @@ const statusClass = (status: SourceStatus) => {
       </ul>
     </main>
 
-    <script>
-      const buttons = Array.from(document.querySelectorAll('[data-filter]'))
-      const cards = Array.from(document.querySelectorAll('[data-categories]'))
-      const visibleCount = document.querySelector('[data-visible-count]')
+<script>
+  const buttons = Array.from(
+    document.querySelectorAll('[data-filter]')
+  ) as HTMLElement[]
 
-      function setFilter(filter) {
-        let count = 0
+  const cards = Array.from(
+    document.querySelectorAll('[data-categories]')
+  ) as HTMLElement[]
 
-        cards.forEach((card) => {
-          const categories = card.getAttribute('data-categories') || ''
-          const show = filter === 'all' || categories.split(' ').includes(filter)
+  const visibleCount = document.querySelector('[data-visible-count]')
 
-          card.hidden = !show
+  function setFilter(filter: string) {
+    let count = 0
 
-          if (show) {
-            count += 1
-          }
-        })
+    cards.forEach((card) => {
+      const categories = card.getAttribute('data-categories') || ''
+      const show = filter === 'all' || categories.split(' ').includes(filter)
 
-        buttons.forEach((button) => {
-          const selected = button.getAttribute('data-filter') === filter
+      card.hidden = !show
 
-          button.classList.toggle('app-filter-button--selected', selected)
-          button.setAttribute('aria-pressed', selected ? 'true' : 'false')
-        })
-
-        if (visibleCount) {
-          visibleCount.textContent = String(count)
-        }
-
-        const url = new URL(window.location.href)
-
-        if (filter === 'all') {
-          url.searchParams.delete('category')
-        } else {
-          url.searchParams.set('category', filter)
-        }
-
-        window.history.replaceState({}, '', url)
+      if (show) {
+        count += 1
       }
+    })
 
-      buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-          setFilter(button.getAttribute('data-filter') || 'all')
-        })
-      })
+    buttons.forEach((button) => {
+      const selected = button.getAttribute('data-filter') === filter
 
-      const initialFilter = new URLSearchParams(window.location.search).get('category') || 'all'
-      const initialButton = buttons.find((button) => button.getAttribute('data-filter') === initialFilter)
+      button.classList.toggle('app-filter-button--selected', selected)
+      button.setAttribute('aria-pressed', selected ? 'true' : 'false')
+    })
 
-      setFilter(initialButton ? initialFilter : 'all')
-    </script>
+    if (visibleCount) {
+      visibleCount.textContent = String(count)
+    }
+
+    const url = new URL(window.location.href)
+
+    if (filter === 'all') {
+      url.searchParams.delete('category')
+    } else {
+      url.searchParams.set('category', filter)
+    }
+
+    window.history.replaceState({}, '', url)
+  }
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      setFilter(button.getAttribute('data-filter') || 'all')
+    })
+  })
+
+  const initialFilter = new URLSearchParams(window.location.search).get('category') || 'all'
+  const initialButton = buttons.find((button) => button.getAttribute('data-filter') === initialFilter)
+
+  setFilter(initialButton ? initialFilter : 'all')
+</script>
   </body>
 </html>
