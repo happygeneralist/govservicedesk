@@ -223,21 +223,39 @@ h2 {
 
 .app-filter-button:hover {
   background: #f3f2f1;
+  color: #0b0c0c;
+}
+
+.app-filter-button--selected,
+.app-filter-button--selected:hover {
+  background: #1d70b8;
+  color: #ffffff;
 }
 
 .app-filter-button:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
+  background: #ffdd00;
+  color: #0b0c0c;
   box-shadow: inset 0 0 0 2px #0b0c0c;
 }
 
-.app-filter-button--selected {
+.app-filter-button:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.app-filter-button--selected:focus:not(:focus-visible) {
   background: #1d70b8;
   color: #ffffff;
 }
 
-.app-filter-button span {
-  font-weight: 700;
+.app-filter-button:focus-visible {
+  outline: 3px solid #ffdd00;
+  outline-offset: 0;
+  background: #ffdd00;
+  color: #0b0c0c;
+  box-shadow: inset 0 0 0 2px #0b0c0c;
 }
 
 .app-source-list {
