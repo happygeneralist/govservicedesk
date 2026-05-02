@@ -10,6 +10,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "ingest": "tsx scripts/ingest.ts",
+    "check:sources": "tsx scripts/check-sources.ts",
     "check": "astro check"
   },
   "dependencies": {
