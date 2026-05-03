@@ -1,3 +1,16 @@
+- id: accessibility-in-government
+  name: Accessibility in Government
+  url: https://accessibility.blog.gov.uk/
+  feedUrl: https://accessibility.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - accessibility
+    - inclusive-design
+    - information-architecture
+    - user-centred-design
+    - digital-government
+    - central-government
 - id: acuity-design
   name: Acuity Design
   url: https://acuity.design/
@@ -20,6 +33,20 @@
     - weeknotes
     - personal-blog
     - digital-government
+- id: ben-holliday
+  name: Ben Holliday
+  url: https://benholliday.com/
+  feedUrl: https://benholliday.com/feed/
+  status: active
+  organisation: Ben Holliday
+  tags:
+    - service-design
+    - digital-transformation
+    - public-sector
+    - leadership
+    - service-patterns
+    - design-practice
+    - practitioners
 - id: beyond-sticky-notes
   name: Beyond Sticky Notes
   url: https://www.beyondstickynotes.com/
@@ -79,19 +106,6 @@
     - accessibility
     - elections
     - whitney-quesenbery
-- id: civic-square
-  name: Civic Square
-  url: https://civicsquare.cc/
-  feedUrl: https://civicsquare.cc/feed/
-  status: active
-  organisation: Civic Square
-  tags:
-    - civic-infrastructure
-    - systems-change
-    - neighbourhoods
-    - governance
-    - public-goods
-    - regenerative-futures
 - id: context-studio
   name: Context Studio
   url: https://contextstudio.ie/
@@ -186,6 +200,20 @@
     - service-design
     - systems-thinking
     - digital-transformation
+    - consultancy
+- id: dxw-rss
+  name: dxw
+  url: https://www.dxw.com/
+  feedUrl: https://www.dxw.com/rss/
+  status: active
+  organisation: dxw
+  tags:
+    - digital-government
+    - public-sector
+    - service-design
+    - user-centred-design
+    - delivery
+    - technology
     - consultancy
 - id: effortmark-caroline-jarrett
   name: Effortmark
@@ -406,6 +434,35 @@
     - strategy
     - tools
     - mapping
+- id: paper-studio
+  name: Paper Studio
+  url: https://paper.studio/
+  feedUrl: https://paper.studio/feed.xml
+  status: active
+  organisation: Paper Studio
+  tags:
+    - design
+    - service-design
+    - strategy
+    - systems-thinking
+    - public-interest-technology
+    - practitioners
+- id: people-street
+  name: People Street
+  url: https://www.peoplestreet.net/blog
+  feedUrl: https://www.peoplestreet.net/blog-feed.xml
+  status: active
+  organisation: People Street
+  tags:
+    - inclusive-research
+    - user-research
+    - design-justice
+    - co-design
+    - community-engagement
+    - public-sector
+    - health
+    - digital-inclusion
+    - consultancy
 - id: policy-lab
   name: Policy Lab
   url: https://openpolicy.blog.gov.uk/
@@ -513,6 +570,20 @@
     - service-design
     - user-centred-design
     - personal-blog
+- id: scott-logic-blog
+  name: Scott Logic Blog
+  url: https://blog.scottlogic.com/
+  feedUrl: https://blog.scottlogic.com/feed.xml
+  status: active
+  organisation: Scott Logic
+  tags:
+    - technology
+    - architecture
+    - delivery
+    - ux-design
+    - ai
+    - digital-transformation
+    - consultancy
 - id: scottish-ai-alliance
   name: Scottish AI Alliance
   url: https://www.scottishai.com/news
@@ -525,6 +596,34 @@
     - public-sector
     - scotland
     - steph-wright
+- id: scottish-government-digital-content-design
+  name: Scottish Government Digital — Content Design
+  url: https://blogs.gov.scot/digital/category/content-design/
+  feedUrl: https://blogs.gov.scot/digital/category/content-design/feed/
+  status: active
+  organisation: Scottish Government
+  tags:
+    - content-design
+    - public-sector
+    - digital-government
+    - scotland
+    - social-security
+    - accessibility
+    - practitioners
+- id: scottish-government-digital-design
+  name: Scottish Government Digital — Design
+  url: https://blogs.gov.scot/digital/category/design/
+  feedUrl: https://blogs.gov.scot/digital/category/design/feed/
+  status: active
+  organisation: Scottish Government
+  tags:
+    - design
+    - service-design
+    - content-design
+    - user-centred-design
+    - digital-government
+    - scotland
+    - practitioners
 - id: services-in-government-kara-kane
   name: Services in Government — Kara Kane
   url: https://services.blog.gov.uk/
@@ -537,6 +636,18 @@
     - public-sector-reform
     - kara-kane
     - central-government
+- id: snook-digital
+  name: Snook Digital
+  url: https://snookdigital.co.uk/
+  feedUrl: https://snookdigital.co.uk/feed/
+  status: active
+  organisation: Snook Digital
+  tags:
+    - technology
+    - web-development
+    - ecommerce
+    - ux-design
+    - needs-review
 - id: softwire-insights
   name: Softwire Insights
   url: https://www.softwire.com/insights/
@@ -560,6 +671,47 @@
     - architecture
     - digital-foundations
     - strategy
+- id: national-archives-foi-releases
+  name: The National Archives — FOI releases news
+  url: https://www.nationalarchives.gov.uk/about/press-room/
+  feedUrl: https://www.nationalarchives.gov.uk/rss/foireleasesnews.xml
+  status: active
+  organisation: The National Archives
+  tags:
+    - archives
+    - public-records
+    - freedom-of-information
+    - transparency
+    - public-sector
+    - government
+- id: national-archives-digital-blog
+  name: The National Archives Digital Blog
+  url: https://blog.nationalarchives.gov.uk/category/digital/
+  feedUrl: https://www.nationalarchives.gov.uk/rss/news.xml
+  status: active
+  organisation: The National Archives
+  tags:
+    - digital-government
+    - archives
+    - information-architecture
+    - structured-content
+    - public-sector
+    - digital
+- id: satori-lab
+  name: The Satori Lab
+  url: https://satorilab.org/
+  feedUrl: https://satorilab.org/feed/
+  status: active
+  organisation: The Satori Lab
+  tags:
+    - public-sector
+    - public-service-design
+    - service-design
+    - systems-change
+    - organisational-change
+    - digital-transformation
+    - wales
+    - consultancy
 - id: transform-wales
   name: Transform Wales
   url: https://transform.wales/blog/
@@ -639,6 +791,19 @@
     - public-sector
     - public-impact
     - governance
+- id: civic-square
+  name: Civic Square
+  url: https://civicsquare.cc/
+  feedUrl: https://civicsquare.cc/feed/
+  status: needs-review
+  organisation: Civic Square
+  tags:
+    - civic-infrastructure
+    - systems-change
+    - neighbourhoods
+    - governance
+    - public-goods
+    - regenerative-futures
 - id: clara-greo
   name: Clara Greo
   url: https://claragreo.com/
@@ -724,6 +889,20 @@
     - public-administration
     - germany
     - martin-jordan
+- id: duncan-stephen
+  name: Duncan Stephen
+  url: https://duncanstephen.net/
+  feedUrl: https://duncanstephen.net/feed/
+  status: needs-review
+  organisation: Duncan Stephen
+  tags:
+    - content-design
+    - information-architecture
+    - structured-content
+    - user-experience
+    - digital
+    - scotland
+    - practitioners
 - id: essex-digital-service
   name: Essex Digital Service
   url: https://blog.essex.gov.uk/essex-digital-service/
@@ -734,6 +913,20 @@
     - local-government
     - digital
     - service-design
+- id: granicus-uk
+  name: Granicus UK
+  url: https://granicus.com/uk/
+  feedUrl: https://granicus.com/uk/feed/
+  status: needs-review
+  organisation: Granicus
+  tags:
+    - digital-government
+    - public-sector
+    - local-government
+    - citizen-engagement
+    - digital-communications
+    - service-delivery
+    - vendor
 - id: heseltine-institute
   name: Heseltine Institute
   url: https://www.liverpool.ac.uk/heseltine-institute/
@@ -780,6 +973,35 @@
     - local-government
     - public-sector
     - reports
+- id: nec-digital-studio
+  name: NEC Digital Studio
+  url: https://necsws.com/digitalstudio/
+  feedUrl: https://necsws.com/digitalstudio/feed/
+  status: needs-review
+  organisation: NEC Software Solutions
+  tags:
+    - public-sector
+    - service-design
+    - user-centred-design
+    - digital-transformation
+    - systems-thinking
+    - user-research
+    - technology
+    - consultancy
+- id: neil-williams
+  name: Neil Williams
+  url: https://neilojwilliams.net/
+  feedUrl: https://neilojwilliams.net/feed/
+  status: needs-review
+  organisation: Neil Williams
+  tags:
+    - digital-government
+    - public-sector
+    - digital-transformation
+    - leadership
+    - working-in-the-open
+    - content-strategy
+    - practitioners
 - id: nesta
   name: Nesta
   url: https://www.nesta.org.uk/
@@ -849,6 +1071,21 @@
     - operating-models
     - digital-strategy
     - consultancy
+- id: rooted-centre
+  name: Rooted — The Centre for Reparative Innovation
+  url: https://rootedcentre.org/
+  feedUrl: https://rootedcentre.org/feed/
+  status: needs-review
+  organisation: Rooted
+  tags:
+    - public-design
+    - reparative-innovation
+    - design-justice
+    - equity
+    - community-power
+    - policy-design
+    - systems-change
+    - julian-thompson
 - id: service-design-network-uk
   name: Service Design Network UK Chapter
   url: https://www.service-design-network.org/chapters/uk/headlines
@@ -881,6 +1118,21 @@
     - design
     - principles
     - personal-blog
+- id: third-sector-lab
+  name: Third Sector Lab
+  url: https://thirdsectorlab.co.uk/
+  feedUrl: https://thirdsectorlab.co.uk/feed/
+  status: needs-review
+  organisation: Third Sector Lab
+  tags:
+    - third-sector
+    - charities
+    - digital-transformation
+    - service-design
+    - user-research
+    - digital-strategy
+    - scotland
+    - consultancy
 - id: transform-uk
   name: Transform UK
   url: https://www.transformuk.com/
