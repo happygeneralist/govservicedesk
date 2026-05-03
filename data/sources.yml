@@ -106,6 +106,20 @@
     - accessibility
     - elections
     - whitney-quesenbery
+- id: connected-by-data
+  name: Connected by Data
+  url: https://connectedbydata.org/
+  feedUrl: https://connectedbydata.org/blog/feed.xml
+  status: active
+  organisation: Connected by Data
+  tags:
+    - data-governance
+    - ai-governance
+    - public-sector
+    - participation
+    - public-interest-technology
+    - digital-rights
+    - jeni-tennison
 - id: context-studio
   name: Context Studio
   url: https://contextstudio.ie/
@@ -140,6 +154,20 @@
     - service-design
     - digital-government
     - personal-blog
+- id: dave-briggs
+  name: Dave Briggs
+  url: https://da.vebrig.gs/
+  feedUrl: https://da.vebrig.gs/feed/
+  status: active
+  organisation: Dave Briggs
+  tags:
+    - local-government
+    - digital-government
+    - public-services
+    - digital-transformation
+    - weeknotes
+    - practitioners
+    - local-digital
 - id: david-eaves
   name: David Eaves
   url: https://eaves.ca/
@@ -152,6 +180,20 @@
     - open-government
     - public-sector
     - strategy
+- id: defra-digital
+  name: Defra digital, data, technology and security
+  url: https://defradigital.blog.gov.uk/
+  feedUrl: https://defradigital.blog.gov.uk/feed/
+  status: active
+  organisation: Department for Environment, Food and Rural Affairs
+  tags:
+    - central-government
+    - digital-government
+    - user-centred-design
+    - content-design
+    - service-design
+    - accessibility
+    - planet-centred-design
 - id: dsit
   name: Department for Science, Innovation and Technology
   url: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
@@ -189,6 +231,49 @@
     - strategy
     - weeknotes
     - practitioners
+- id: digital-luton
+  name: Digital Luton
+  url: https://luton.localgov.blog/
+  feedUrl: https://luton.localgov.blog/feed/
+  status: active
+  organisation: Luton Council
+  tags:
+    - local-government
+    - digital-government
+    - ddat
+    - weeknotes
+    - service-delivery
+    - technology
+    - local-digital
+    - working-in-the-open
+- id: digital-stockport
+  name: Digital Stockport
+  url: https://www.digitalstockport.info/
+  feedUrl: https://www.digitalstockport.info/feed/
+  status: active
+  organisation: Stockport Council
+  tags:
+    - local-government
+    - digital-government
+    - service-design
+    - data
+    - content
+    - local-digital
+    - working-in-the-open
+- id: dwp-digital
+  name: DWP Digital
+  url: https://dwpdigital.blog.gov.uk/
+  feedUrl: https://dwpdigital.blog.gov.uk/feed/
+  status: active
+  organisation: Department for Work and Pensions
+  tags:
+    - central-government
+    - welfare
+    - digital-government
+    - service-design
+    - user-centred-design
+    - accessibility
+    - data
 - id: dxw
   name: dxw
   url: https://www.dxw.com/articles/
@@ -271,6 +356,20 @@
     - systems-thinking
     - policy
     - complexity
+- id: government-digital-and-data
+  name: Government Digital and Data
+  url: https://cddo.blog.gov.uk/
+  feedUrl: https://cddo.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - central-government
+    - digital-government
+    - data
+    - ai
+    - user-research
+    - service-design
+    - digital-transformation
 - id: gds-blog
   name: Government Digital Service Blog
   url: https://gds.blog.gov.uk/
@@ -281,6 +380,20 @@
     - central-government
     - digital
     - delivery
+- id: home-office-digital
+  name: Home Office Digital
+  url: https://hodigital.blog.gov.uk/
+  feedUrl: https://hodigital.blog.gov.uk/feed/
+  status: active
+  organisation: Home Office
+  tags:
+    - central-government
+    - digital-government
+    - data
+    - user-centred-design
+    - service-design
+    - technology
+    - internal-services
 - id: ibm-center-business-government
   name: IBM Center for The Business of Government
   url: https://www.businessofgovernment.org/blog
@@ -305,6 +418,20 @@
     - systems-thinking
     - service-design
     - local-government
+- id: justice-digital
+  name: Justice Digital
+  url: https://mojdigital.blog.gov.uk/
+  feedUrl: https://mojdigital.blog.gov.uk/feed/
+  status: active
+  organisation: Ministry of Justice
+  tags:
+    - central-government
+    - justice
+    - digital-government
+    - service-design
+    - user-research
+    - content-design
+    - technology
 - id: kinship-works-james-plunkett
   name: Kinship Works
   url: https://medium.com/kinship-works
@@ -317,10 +444,65 @@
     - social-contract
     - human-systems
     - james-plunkett
+- id: local-trust
+  name: Local Trust
+  url: https://localtrust.org.uk/insights/
+  feedUrl: https://localtrust.org.uk/feed/
+  status: active
+  organisation: Local Trust
+  tags:
+    - community-power
+    - place-based-working
+    - neighbourhoods
+    - public-service-reform
+    - participation
+    - civic-infrastructure
+- id: localgov-apps-managers-network
+  name: LocalGov Apps Managers Network
+  url: https://lgamn.localgov.blog/
+  feedUrl: https://lgamn.localgov.blog/feed/
+  status: active
+  organisation: LocalGov Apps Managers Network
+  tags:
+    - local-government
+    - applications
+    - devops
+    - technology
+    - community
+    - local-digital
+    - working-in-the-open
+- id: localgov-digital
+  name: LocalGov Digital
+  url: https://localgov.digital/blog/
+  feedUrl: https://localgov.digital/feed/
+  status: active
+  organisation: LocalGov Digital
+  tags:
+    - local-government
+    - digital-government
+    - local-digital
+    - community
+    - practitioners
+    - events
+    - ai
+- id: localise
+  name: Localise
+  url: https://locali.se/
+  feedUrl: https://locali.se/feed/
+  status: active
+  organisation: Localise
+  tags:
+    - local-government
+    - digital-transformation
+    - public-services
+    - operating-models
+    - data
+    - technology
+    - consultancy
 - id: made-tech-digital-service-delivery
   name: Made Tech Digital Service Delivery
   url: https://www.madetech.com/blog/category/digital-service-delivery/
-  feedUrl: https://www.madetech.com/blog/feed/
+  feedUrl: https://www.madetech.com/feed/
   status: active
   organisation: Made Tech
   tags:
@@ -388,6 +570,34 @@
     - leadership
     - strategy
     - practitioners
+- id: mhclg-digital
+  name: MHCLG Digital
+  url: https://mhclgdigital.blog.gov.uk/
+  feedUrl: https://mhclgdigital.blog.gov.uk/feed/
+  status: active
+  organisation: Ministry of Housing, Communities and Local Government
+  tags:
+    - central-government
+    - local-government
+    - digital-government
+    - digital-planning
+    - user-research
+    - content-design
+    - local-digital
+- id: mysociety
+  name: mySociety
+  url: https://www.mysociety.org/
+  feedUrl: https://www.mysociety.org/feed/
+  status: active
+  organisation: mySociety
+  tags:
+    - civic-tech
+    - democracy
+    - transparency
+    - participation
+    - local-government
+    - climate
+    - public-interest-technology
 - id: nhs-design-matters-rochelle-gold
   name: NHS Digital Design Matters
   url: https://digital.nhs.uk/blog/design-matters
@@ -400,6 +610,45 @@
     - design-maturity
     - health
     - rochelle-gold
+- id: nhs-digital-data-points
+  name: NHS England Data Points
+  url: https://digital.nhs.uk/blog/data-points
+  feedUrl: https://digital.nhs.uk/feed/data-point-blog-feed.xml
+  status: active
+  organisation: NHS England
+  tags:
+    - nhs
+    - health
+    - data
+    - analytics
+    - public-sector
+    - digital-government
+- id: nhs-digital-transformation-blog
+  name: NHS England Digital Transformation Blog
+  url: https://digital.nhs.uk/blog/transformation-blog
+  feedUrl: https://digital.nhs.uk/feed/transformation-blog-feed.xml
+  status: active
+  organisation: NHS England
+  tags:
+    - nhs
+    - health
+    - digital-transformation
+    - public-sector
+    - delivery
+    - service-transformation
+- id: nhs-digital-tech-talk
+  name: NHS England Tech Talk
+  url: https://digital.nhs.uk/blog/tech-talk
+  feedUrl: https://digital.nhs.uk/feed/tech-talk-feed.xml
+  status: active
+  organisation: NHS England
+  tags:
+    - nhs
+    - health
+    - technology
+    - architecture
+    - digital-delivery
+    - public-sector
 - id: nia-campbell-medium
   name: Nia Campbell
   url: https://medium.com/@niacampbell
@@ -446,6 +695,21 @@
     - strategy
     - systems-thinking
     - public-interest-technology
+    - practitioners
+- id: paul-taylor
+  name: Paul Taylor
+  url: https://paulitaylor.com/
+  feedUrl: https://paulitaylor.com/feed/
+  status: active
+  organisation: Paul Taylor
+  tags:
+    - public-service-reform
+    - housing
+    - place-based-working
+    - organisational-design
+    - innovation
+    - communities
+    - agile
     - practitioners
 - id: people-street
   name: People Street
@@ -524,6 +788,19 @@
     - public-value
     - andrew-knight
     - central-government
+- id: public-technology
+  name: PublicTechnology
+  url: https://www.publictechnology.net/
+  feedUrl: https://www.publictechnology.net/feed/
+  status: active
+  organisation: PublicTechnology
+  tags:
+    - public-sector
+    - digital-government
+    - technology
+    - data
+    - public-sector-news
+    - supplier-landscape
 - id: question-factory
   name: Question Factory
   url: https://questionfactory.co.uk/blog/
@@ -648,6 +925,21 @@
     - ecommerce
     - ux-design
     - needs-review
+- id: socitm
+  name: Socitm
+  url: https://socitm.net/
+  feedUrl: https://socitm.net/feed/
+  status: active
+  organisation: Socitm
+  tags:
+    - local-government
+    - ddat
+    - digital-leadership
+    - cyber
+    - lgr
+    - digital-transformation
+    - technology
+    - professional-community
 - id: softwire-insights
   name: Softwire Insights
   url: https://www.softwire.com/insights/
@@ -725,6 +1017,19 @@
     - user-centred-design
     - delivery
     - systems-change
+- id: user-research-in-government
+  name: User Research in Government
+  url: https://userresearch.blog.gov.uk/
+  feedUrl: https://userresearch.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - central-government
+    - user-research
+    - user-centred-design
+    - accessibility
+    - service-design
+    - research-practice
 - id: vicky-teinaki
   name: Vicky Teinaki
   url: https://medium.vickyteinaki.com/
@@ -746,6 +1051,20 @@
     - strategy
     - leadership
     - systems-thinking
+- id: warwick-digital
+  name: Warwick Digital
+  url: https://warwickdc.localgov.blog/
+  feedUrl: https://warwickdc.localgov.blog/feed/
+  status: active
+  organisation: Warwick District Council
+  tags:
+    - local-government
+    - digital-government
+    - service-design
+    - agile
+    - user-research
+    - local-digital
+    - working-in-the-open
 - id: will-larson
   name: Will Larson
   url: https://lethain.com/
@@ -769,6 +1088,20 @@
     - infrastructure
     - regulation
     - longform
+- id: ada-lovelace-institute
+  name: Ada Lovelace Institute
+  url: https://www.adalovelaceinstitute.org/blog/
+  feedUrl: https://www.adalovelaceinstitute.org/feed/
+  status: needs-review
+  organisation: Ada Lovelace Institute
+  tags:
+    - ai-governance
+    - ai-policy
+    - data-ethics
+    - public-sector
+    - public-interest-technology
+    - digital-rights
+    - public-trust
 - id: apolitical
   name: Apolitical
   url: https://apolitical.co/
@@ -779,6 +1112,20 @@
     - policy
     - public-sector
     - professional-community
+- id: cast
+  name: CAST
+  url: https://www.wearecast.org.uk/
+  feedUrl: https://www.wearecast.org.uk/feed/
+  status: needs-review
+  organisation: CAST
+  tags:
+    - third-sector
+    - charities
+    - tech-for-good
+    - digital-transformation
+    - digital-inclusion
+    - social-sector
+    - ai
 - id: centre-for-public-impact
   name: Centre for Public Impact
   url: https://www.centreforpublicimpact.org/
@@ -827,6 +1174,20 @@
     - service-design
     - innovation
     - public-services
+- id: collaborate-cic
+  name: Collaborate CIC
+  url: https://collaboratecic.com/blogs/
+  feedUrl: https://collaboratecic.com/feed/
+  status: needs-review
+  organisation: Collaborate CIC
+  tags:
+    - public-service-reform
+    - human-learning-systems
+    - systems-change
+    - place-based-working
+    - local-government
+    - collaboration
+    - third-sector
 - id: content-design-london
   name: Content Design London
   url: https://contentdesign.london/blog
@@ -913,6 +1274,19 @@
     - local-government
     - digital
     - service-design
+- id: essex-insight-blog
+  name: Essex Insight Blog
+  url: https://blog.essex.gov.uk/insight-blog/
+  feedUrl: https://blog.essex.gov.uk/insight-blog/feed/
+  status: needs-review
+  organisation: Essex County Council
+  tags:
+    - local-government
+    - data
+    - analytics
+    - research
+    - citizen-insight
+    - public-sector
 - id: granicus-uk
   name: Granicus UK
   url: https://granicus.com/uk/
@@ -951,6 +1325,21 @@
     - public-service-reform
     - systems-thinking
     - complexity
+- id: local-digital
+  name: Local Digital
+  url: https://www.localdigital.gov.uk/
+  feedUrl: https://www.localdigital.gov.uk/feed/
+  status: needs-review
+  organisation: Ministry of Housing, Communities and Local Government
+  tags:
+    - local-government
+    - digital-government
+    - ddat
+    - cyber
+    - local-digital
+    - lgr
+    - digital-transformation
+    - central-government
 - id: local-digital-news
   name: Local Digital News
   url: https://www.localdigital.gov.uk/news/
@@ -973,6 +1362,34 @@
     - local-government
     - public-sector
     - reports
+- id: localgov-news
+  name: LocalGov News
+  url: https://www.localgov.co.uk/
+  feedUrl: https://www.localgov.co.uk/rss/news
+  status: needs-review
+  organisation: LocalGov
+  tags:
+    - local-government
+    - public-sector-news
+    - lgr
+    - finance
+    - workforce
+    - service-delivery
+    - news
+- id: loti
+  name: London Office of Technology and Innovation
+  url: https://loti.london/
+  feedUrl: https://loti.london/feed/
+  status: needs-review
+  organisation: London Office of Technology and Innovation
+  tags:
+    - local-government
+    - london
+    - digital-government
+    - data
+    - technology
+    - innovation
+    - collaboration
 - id: nec-digital-studio
   name: NEC Digital Studio
   url: https://necsws.com/digitalstudio/
@@ -1014,6 +1431,19 @@
     - systems-change
     - policy
     - social-innovation
+- id: new-local
+  name: New Local
+  url: https://www.newlocal.org.uk/comment/
+  feedUrl: https://www.newlocal.org.uk/feed/
+  status: needs-review
+  organisation: New Local
+  tags:
+    - local-government
+    - public-service-reform
+    - community-power
+    - place-based-working
+    - participation
+    - strategy
 - id: nicola-pritchard
   name: Nicola Pritchard
   url: https://nicolapritchard.com/
@@ -1118,6 +1548,21 @@
     - design
     - principles
     - personal-blog
+- id: techuk-local-public-services
+  name: techUK Local Public Services
+  url: https://www.techuk.org/developing-markets/local-public-services.html
+  feedUrl: https://www.techuk.org/rss.xml
+  status: needs-review
+  organisation: techUK
+  tags:
+    - local-government
+    - public-sector
+    - ddat
+    - digital-transformation
+    - procurement
+    - supplier-landscape
+    - vendor
+    - news
 - id: third-sector-lab
   name: Third Sector Lab
   url: https://thirdsectorlab.co.uk/
@@ -1156,6 +1601,21 @@
     - public-policy
     - systems-change
     - lucy-kimbell
+- id: uka-local-digital
+  name: UKAuthority Local Digital
+  url: https://www.ukauthority.com/topics/uka-local-digital
+  feedUrl: https://www.ukauthority.com/rss.xml
+  status: needs-review
+  organisation: UKAuthority
+  tags:
+    - local-government
+    - local-digital
+    - digital-government
+    - data
+    - cyber
+    - smart-places
+    - public-sector-news
+    - news
 - id: weeknotes
   name: Web of Weeknotes
   url: https://weeknot.es/
