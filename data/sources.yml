@@ -33,6 +33,19 @@
     - weeknotes
     - personal-blog
     - digital-government
+- id: ann-kempster
+  name: Ann Kempster
+  url: https://blog.annkempster.com/
+  feedUrl: https://blog.annkempster.com/rss/
+  status: active
+  organisation: Ann Kempster
+  tags:
+    - public-services
+    - wales
+    - service-design
+    - public-service-reform
+    - weeknotes
+    - practitioners
 - id: ben-holliday
   name: Ben Holliday
   url: https://benholliday.com/
@@ -46,6 +59,20 @@
     - leadership
     - service-patterns
     - design-practice
+    - practitioners
+- id: benjy-stanton
+  name: Benjy Stanton
+  url: https://www.benjystanton.co.uk/blog/
+  feedUrl: https://www.benjystanton.co.uk/feed.xml
+  status: active
+  organisation: Benjy Stanton
+  tags:
+    - content-design
+    - service-design
+    - accessibility
+    - public-sector
+    - wales
+    - weeknotes
     - practitioners
 - id: beyond-sticky-notes
   name: Beyond Sticky Notes
@@ -406,6 +433,42 @@
     - systems-thinking
     - public-sector
     - leadership
+- id: imogen-levy
+  name: Imogen Levy
+  url: https://teppie-ucd.medium.com/
+  feedUrl: https://teppie-ucd.medium.com/feed
+  status: active
+  organisation: Imogen Levy
+  tags:
+    - weeknotes
+    - user-centred-design
+    - public-sector
+    - practitioners
+    - medium
+- id: irina-pencheva
+  name: Irina Pencheva
+  url: https://irinapencheva.com/
+  feedUrl: https://irinapencheva.com/feed/
+  status: active
+  organisation: Irina Pencheva
+  tags:
+    - weeknotes
+    - user-centred-design
+    - public-sector
+    - practitioners
+    - working-in-the-open
+- id: james-higgot
+  name: James Higgot
+  url: https://jiggott.medium.com/
+  feedUrl: https://jiggott.medium.com/feed
+  status: active
+  organisation: James Higgot
+  tags:
+    - weeknotes
+    - digital-government
+    - public-sector
+    - practitioners
+    - medium
 - id: john-mortimer-medium
   name: John Mortimer
   url: https://john-mortimer.medium.com/
@@ -557,6 +620,18 @@
     - public-services
     - product-leadership
     - matt-edgar
+- id: matt-lucht
+  name: Matt Lucht
+  url: https://mattlucht.github.io/
+  feedUrl: https://mattlucht.github.io/feed.xml
+  status: active
+  organisation: Matt Lucht
+  tags:
+    - weeknotes
+    - digital-government
+    - public-sector
+    - practitioners
+    - working-in-the-open
 - id: melissa-perri
   name: Melissa Perri
   url: https://melissaperri.com/blog
@@ -598,6 +673,19 @@
     - local-government
     - climate
     - public-interest-technology
+- id: new-local
+  name: New Local
+  url: https://www.newlocal.org.uk/comment/
+  feedUrl: https://www.newlocal.org.uk/feed/
+  status: active
+  organisation: New Local
+  tags:
+    - local-government
+    - public-service-reform
+    - community-power
+    - place-based-working
+    - participation
+    - strategy
 - id: nhs-design-matters-rochelle-gold
   name: NHS Digital Design Matters
   url: https://digital.nhs.uk/blog/design-matters
@@ -672,6 +760,18 @@
     - systems-thinking
     - anticipatory-innovation
     - governance
+- id: simon-wilson
+  name: Office of Wilson
+  url: https://www.officeofwilson.com/
+  feedUrl: https://www.officeofwilson.com/feed/
+  status: active
+  organisation: Simon Wilson
+  tags:
+    - digital-government
+    - public-sector
+    - strategy
+    - transformation
+    - practitioners
 - id: online-wardley-maps
   name: Online Wardley Maps Blog
   url: https://docs.onlinewardleymaps.com/blog
@@ -825,6 +925,18 @@
     - public-sector
     - strategy
     - json-feed
+- id: sam-villis
+  name: Sam Villis
+  url: https://stamanfar.medium.com/
+  feedUrl: https://stamanfar.medium.com/feed
+  status: active
+  organisation: Sam Villis
+  tags:
+    - weeknotes
+    - public-sector
+    - digital-government
+    - practitioners
+    - medium
 - id: sap-australia-public-sector
   name: SAP Australia and New Zealand Public Sector
   url: https://news.sap.com/australia/
@@ -913,6 +1025,18 @@
     - public-sector-reform
     - kara-kane
     - central-government
+- id: sian-murray-huynh
+  name: Sian Murray Huynh
+  url: https://sianmurrayhuynh.substack.com/
+  feedUrl: https://sianmurrayhuynh.substack.com/feed
+  status: active
+  organisation: Sian Murray Huynh
+  tags:
+    - weeknotes
+    - public-sector
+    - digital-government
+    - practitioners
+    - newsletter
 - id: snook-digital
   name: Snook Digital
   url: https://snookdigital.co.uk/
@@ -951,6 +1075,18 @@
     - wardley-mapping
     - digital-transformation
     - architecture
+- id: steph-gray
+  name: Steph Gray
+  url: https://stephgray.com/category/blog/
+  feedUrl: https://stephgray.com/feed/
+  status: active
+  organisation: Steph Gray
+  tags:
+    - digital-government
+    - public-sector
+    - strategy
+    - digital-transformation
+    - practitioners
 - id: technology-in-government
   name: Technology in Government
   url: https://technology.blog.gov.uk/
@@ -989,21 +1125,6 @@
     - structured-content
     - public-sector
     - digital
-- id: satori-lab
-  name: The Satori Lab
-  url: https://satorilab.org/
-  feedUrl: https://satorilab.org/feed/
-  status: active
-  organisation: The Satori Lab
-  tags:
-    - public-sector
-    - public-service-design
-    - service-design
-    - systems-change
-    - organisational-change
-    - digital-transformation
-    - wales
-    - consultancy
 - id: transform-wales
   name: Transform Wales
   url: https://transform.wales/blog/
@@ -1138,6 +1259,18 @@
     - public-sector
     - public-impact
     - governance
+- id: chris-ballantine-thomas
+  name: Chris Ballantine-Thomas
+  url: https://chrisballantinethomas.co.uk/
+  feedUrl: https://chrisballantinethomas.co.uk/feed/
+  status: needs-review
+  organisation: Chris Ballantine-Thomas
+  tags:
+    - weeknotes
+    - digital-government
+    - public-sector
+    - practitioners
+    - working-in-the-open
 - id: civic-square
   name: Civic Square
   url: https://civicsquare.cc/
@@ -1201,6 +1334,30 @@
     - ai
     - governance
     - sarah-winters
+- id: dai-vaughan
+  name: Dai Vaughan
+  url: https://dafyddvaughan.uk/blog/
+  feedUrl: https://dafyddvaughan.uk/feed.xml
+  status: needs-review
+  organisation: Dai Vaughan
+  tags:
+    - digital-government
+    - public-sector
+    - technology
+    - software
+    - practitioners
+- id: dan-bower
+  name: Dan Bower
+  url: https://danielbower.com/
+  feedUrl: https://danielbower.com/feed/
+  status: needs-review
+  organisation: Dan Bower
+  tags:
+    - weeknotes
+    - digital-government
+    - public-sector
+    - practitioners
+    - working-in-the-open
 - id: dark-matter-labs
   name: Dark Matter Labs
   url: https://darkmatterlabs.org/feed
@@ -1287,6 +1444,32 @@
     - research
     - citizen-insight
     - public-sector
+- id: frankie-roberto-nhs-notes
+  name: Frankie Roberto — NHS Notes
+  url: https://frankieroberto.github.io/nhsnotes/
+  feedUrl: https://frankieroberto.github.io/nhsnotes/feed.xml
+  status: needs-review
+  organisation: Frankie Roberto
+  tags:
+    - nhs
+    - health
+    - digital-services
+    - prevention
+    - public-sector
+    - weeknotes
+    - practitioners
+- id: giles-turnbull
+  name: Giles Turnbull
+  url: https://gilest.org/
+  feedUrl: https://gilest.org/feed/
+  status: needs-review
+  organisation: Giles Turnbull
+  tags:
+    - writing
+    - digital-government
+    - public-sector
+    - working-in-the-open
+    - practitioners
 - id: granicus-uk
   name: Granicus UK
   url: https://granicus.com/uk/
@@ -1325,6 +1508,19 @@
     - public-service-reform
     - systems-thinking
     - complexity
+- id: kuba-bartwicki
+  name: Kuba Bartwicki
+  url: https://www.kubabartwicki.com/
+  feedUrl: https://www.kubabartwicki.com/feed.xml
+  status: needs-review
+  organisation: Kuba Bartwicki
+  tags:
+    - service-design
+    - design-leadership
+    - public-sector
+    - digital-government
+    - working-in-the-open
+    - practitioners
 - id: local-digital
   name: Local Digital
   url: https://www.localdigital.gov.uk/
@@ -1390,6 +1586,32 @@
     - technology
     - innovation
     - collaboration
+- id: martin-wright
+  name: Martin Wright
+  url: https://www.mynameismartin.co.uk/
+  feedUrl: https://www.mynameismartin.co.uk/blog?format=rss
+  status: needs-review
+  organisation: Martin Wright
+  tags:
+    - human-centred-design
+    - service-design
+    - digital-products
+    - government
+    - healthcare
+    - charity
+    - practitioners
+- id: mike-gallagher
+  name: Mike Gallagher
+  url: https://mikegallagher.org/
+  feedUrl: https://mikegallagher.org/feed/
+  status: needs-review
+  organisation: Mike Gallagher
+  tags:
+    - weeknotes
+    - public-sector
+    - digital-government
+    - practitioners
+    - working-in-the-open
 - id: nec-digital-studio
   name: NEC Digital Studio
   url: https://necsws.com/digitalstudio/
@@ -1431,19 +1653,6 @@
     - systems-change
     - policy
     - social-innovation
-- id: new-local
-  name: New Local
-  url: https://www.newlocal.org.uk/comment/
-  feedUrl: https://www.newlocal.org.uk/feed/
-  status: needs-review
-  organisation: New Local
-  tags:
-    - local-government
-    - public-service-reform
-    - community-power
-    - place-based-working
-    - participation
-    - strategy
 - id: nicola-pritchard
   name: Nicola Pritchard
   url: https://nicolapritchard.com/
@@ -1477,6 +1686,18 @@
     - housing
     - digital-infrastructure
     - systems-change
+- id: owen-jones
+  name: Owen Jones
+  url: https://owenis.online/
+  feedUrl: https://owenis.online/feed/
+  status: needs-review
+  organisation: Owen Jones
+  tags:
+    - weeknotes
+    - public-sector
+    - digital-government
+    - practitioners
+    - working-in-the-open
 - id: participatory-city
   name: Participatory City Foundation
   url: https://www.participatorycity.org/
@@ -1501,6 +1722,30 @@
     - operating-models
     - digital-strategy
     - consultancy
+- id: rebecca-cottrell
+  name: Quiet Signals
+  url: https://quietsignals.co.uk/
+  feedUrl: https://quietsignals.co.uk/feed/
+  status: needs-review
+  organisation: Rebecca Cottrell
+  tags:
+    - weeknotes
+    - public-sector
+    - digital-government
+    - practitioners
+    - working-in-the-open
+- id: ralph-hawkins
+  name: Ralph Hawkins
+  url: https://ralphhawkins.co.uk/
+  feedUrl: https://ralphhawkins.co.uk/feed/
+  status: needs-review
+  organisation: Ralph Hawkins
+  tags:
+    - weeknotes
+    - public-sector
+    - digital-government
+    - practitioners
+    - working-in-the-open
 - id: rooted-centre
   name: Rooted — The Centre for Reparative Innovation
   url: https://rootedcentre.org/
@@ -1538,6 +1783,18 @@
     - public-interest-design
     - care
     - rachael-dietkus
+- id: steve-messer
+  name: Steve Messer
+  url: https://visitmy.website/
+  feedUrl: https://visitmy.website/feed/
+  status: needs-review
+  organisation: Steve Messer
+  tags:
+    - weeknotes
+    - digital-government
+    - public-sector
+    - practitioners
+    - working-in-the-open
 - id: stu-ideas
   name: Stu — Design Principles and Ideas
   url: https://stu.xyz/ideas/design-principles
@@ -1563,6 +1820,48 @@
     - supplier-landscape
     - vendor
     - news
+- id: terence-eden
+  name: Terence Eden
+  url: https://shkspr.mobi/blog/
+  feedUrl: https://shkspr.mobi/blog/feed/
+  status: needs-review
+  organisation: Terence Eden
+  tags:
+    - technology
+    - digital-rights
+    - open-standards
+    - accessibility
+    - public-interest-technology
+    - practitioners
+- id: satori-lab
+  name: The Satori Lab
+  url: https://satorilab.org/
+  feedUrl: https://satorilab.org/feed/
+  status: needs-review
+  organisation: The Satori Lab
+  tags:
+    - public-sector
+    - public-service-design
+    - service-design
+    - systems-change
+    - organisational-change
+    - digital-transformation
+    - wales
+    - consultancy
+- id: dan-hon
+  name: Things That Caught My Attention
+  url: https://newsletter.danhon.com/
+  feedUrl: https://newsletter.danhon.com/feed
+  status: needs-review
+  organisation: Dan Hon
+  tags:
+    - government-technology
+    - technology-ethics
+    - digital-government
+    - platforms
+    - ai
+    - public-interest-technology
+    - newsletter
 - id: third-sector-lab
   name: Third Sector Lab
   url: https://thirdsectorlab.co.uk/
@@ -1578,6 +1877,18 @@
     - digital-strategy
     - scotland
     - consultancy
+- id: tom-hallam
+  name: Tom Hallam
+  url: https://thomashallam.github.io/
+  feedUrl: https://thomashallam.github.io/feed.xml
+  status: needs-review
+  organisation: Tom Hallam
+  tags:
+    - weeknotes
+    - digital-government
+    - public-sector
+    - practitioners
+    - working-in-the-open
 - id: transform-uk
   name: Transform UK
   url: https://www.transformuk.com/
