@@ -102,6 +102,19 @@
     - service-design
     - weeknotes
     - consultancy
+- id: create-change
+  name: Create/Change
+  url: https://createchange.io/blog/
+  feedUrl: https://createchange.io/blog/feed/
+  status: active
+  organisation: Create/Change
+  tags:
+    - govtech
+    - digital-government
+    - public-sector
+    - delivery
+    - service-ownership
+    - ai
 - id: darin-kayoli-medium
   name: Darin Kayoli
   url: https://darinkayoli.medium.com/
@@ -148,6 +161,20 @@
     - healthcare
     - relational-services
     - emma-parnell
+- id: digital-by-default
+  name: Digital by Default
+  url: https://digitalbydefault.com/
+  feedUrl: https://digitalbydefault.com/feed/
+  status: active
+  organisation: Matt Jukes
+  tags:
+    - digital-government
+    - public-sector
+    - product-management
+    - delivery
+    - strategy
+    - weeknotes
+    - practitioners
 - id: dxw
   name: dxw
   url: https://www.dxw.com/articles/
@@ -320,6 +347,19 @@
     - public-services
     - product-leadership
     - matt-edgar
+- id: melissa-perri
+  name: Melissa Perri
+  url: https://melissaperri.com/blog
+  feedUrl: https://melissaperri.com/blog?format=rss
+  status: active
+  organisation: Melissa Perri
+  tags:
+    - product-management
+    - product-strategy
+    - product-operations
+    - leadership
+    - strategy
+    - practitioners
 - id: nhs-design-matters-rochelle-gold
   name: NHS Digital Design Matters
   url: https://digital.nhs.uk/blog/design-matters
@@ -378,6 +418,32 @@
     - systems-thinking
     - design
     - participation
+- id: product-talk-teresa-torres
+  name: Product Talk — Teresa Torres
+  url: https://www.producttalk.org/author/Teresa/
+  feedUrl: https://www.producttalk.org/author/teresa/feed/
+  status: active
+  organisation: Product Talk
+  tags:
+    - product-management
+    - product-discovery
+    - continuous-discovery
+    - strategy
+    - research
+    - practitioners
+- id: productify
+  name: Productify by Bandan
+  url: https://productify.substack.com/
+  feedUrl: https://productify.substack.com/feed
+  status: active
+  organisation: Productify
+  tags:
+    - product-management
+    - product-growth
+    - ai
+    - technology
+    - strategy
+    - practitioners
 - id: public-policy-design
   name: Public Policy Design
   url: https://publicpolicydesign.blog.gov.uk/
@@ -413,6 +479,18 @@
     - devolution
     - systems-thinking
     - strategy
+- id: richard-pope
+  name: Richard Pope
+  url: https://richardpope.org/
+  feedUrl: https://richardpope.org/rss/
+  status: active
+  organisation: Richard Pope
+  tags:
+    - digital-government
+    - government-as-a-platform
+    - public-sector
+    - strategy
+    - json-feed
 - id: sap-australia-public-sector
   name: SAP Australia and New Zealand Public Sector
   url: https://news.sap.com/australia/
@@ -482,6 +560,19 @@
     - architecture
     - digital-foundations
     - strategy
+- id: transform-wales
+  name: Transform Wales
+  url: https://transform.wales/blog/
+  feedUrl: https://transform.wales/index.xml
+  status: active
+  organisation: Transform Wales
+  tags:
+    - wales
+    - public-sector
+    - digital-government
+    - user-centred-design
+    - delivery
+    - systems-change
 - id: vicky-teinaki
   name: Vicky Teinaki
   url: https://medium.vickyteinaki.com/
@@ -492,6 +583,17 @@
     - weeknotes
     - service-design
     - personal-blog
+- id: wardley-leadership-strategies
+  name: Wardley Leadership Strategies
+  url: https://www.wardleyleadershipstrategies.com/
+  feedUrl: https://www.wardleyleadershipstrategies.com/blog/rss.xml
+  status: active
+  organisation: Wardley Leadership Strategies
+  tags:
+    - wardley-mapping
+    - strategy
+    - leadership
+    - systems-thinking
 - id: will-larson
   name: Will Larson
   url: https://lethain.com/
@@ -573,19 +675,6 @@
     - ai
     - governance
     - sarah-winters
-- id: create-change
-  name: Create/Change
-  url: https://createchange.io/blog/
-  feedUrl: https://createchange.io/blog/feed/
-  status: needs-review
-  organisation: Create/Change
-  tags:
-    - govtech
-    - digital-government
-    - public-sector
-    - delivery
-    - service-ownership
-    - ai
 - id: dark-matter-labs
   name: Dark Matter Labs
   url: https://darkmatterlabs.org/feed
@@ -669,18 +758,6 @@
     - public-service-reform
     - systems-thinking
     - complexity
-- id: institute-for-government
-  name: Institute for Government
-  url: https://www.instituteforgovernment.org.uk/
-  feedUrl: https://www.instituteforgovernment.org.uk/rss.xml
-  status: needs-review
-  organisation: Institute for Government
-  tags:
-    - government
-    - public-sector-reform
-    - policy
-    - delivery
-    - institutions
 - id: local-digital-news
   name: Local Digital News
   url: https://www.localdigital.gov.uk/news/
@@ -772,18 +849,6 @@
     - operating-models
     - digital-strategy
     - consultancy
-- id: richard-pope
-  name: Richard Pope
-  url: https://richardpope.org/
-  feedUrl: https://richardpope.org/rss/
-  status: active
-  organisation: Richard Pope
-  tags:
-    - digital-government
-    - government-as-a-platform
-    - public-sector
-    - strategy
-    - json-feed
 - id: service-design-network-uk
   name: Service Design Network UK Chapter
   url: https://www.service-design-network.org/chapters/uk/headlines
@@ -827,19 +892,6 @@
     - public-sector
     - consultancy
     - service-design
-- id: transform-wales
-  name: Transform Wales
-  url: https://transform.wales/blog/
-  feedUrl: https://transform.wales/index.xml
-  status: active
-  organisation: Transform Wales
-  tags:
-    - wales
-    - public-sector
-    - digital-government
-    - user-centred-design
-    - delivery
-    - systems-change
 - id: ual-social-design-institute
   name: UAL Social Design Institute
   url: https://www.arts.ac.uk/ual-social-design-institute
@@ -852,22 +904,11 @@
     - public-policy
     - systems-change
     - lucy-kimbell
-- id: wardley-leadership-strategies
-  name: Wardley Leadership Strategies
-  url: https://www.wardleyleadershipstrategies.com/
-  feedUrl: https://www.wardleyleadershipstrategies.com/blog/rss.xml
-  status: active
-  organisation: Wardley Leadership Strategies
-  tags:
-    - wardley-mapping
-    - strategy
-    - leadership
-    - systems-thinking
 - id: weeknotes
   name: Web of Weeknotes
   url: https://weeknot.es/
   feedUrl: https://weeknot.es/rss/
-  status: active
+  status: needs-review
   organisation: Web of Weeknotes
   tags:
     - weeknotes
