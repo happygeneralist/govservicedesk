@@ -764,7 +764,7 @@
   name: Office of Wilson
   url: https://www.officeofwilson.com/
   feedUrl: https://www.officeofwilson.com/feed/
-  status: active
+  status: paused
   organisation: Simon Wilson
   tags:
     - digital-government
